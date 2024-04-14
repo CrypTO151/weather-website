@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #3989ba;
+}
+
+.search-box{
+    /* border: 2px solid black; */
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50px; */
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.search-box input{
+    margin: 20px;
+    width: 20%;
+    /* height: 40px; */
+    height: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 18px;
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+
+.search-box button{
+    margin-left: -10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: #3989ba;
+    background-color: #b4e2ff;
+    border-radius: 50%;
+    /* box-shadow: -7px 7px 6px rgba(0, 0, 0, .2); */
+    font-size: 18px;
+    transition: 0.4s ease;
+}
+
+.search-box button:hover{
+    color: #b4e2ff;
+    background-color: #265e80;
+}
+
+.full{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 20px;
+    background: #fff;
+    height: 450px;
+    width: 600px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.container img{
+    width: 300px;
+}
+
+.weather-box .temperature{
+    /* position: relative; */
+    color: #3989ba;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.weather-box .description{
+    color: #3989ba;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 105px;
+}
+
+.weather-info{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weather-info .humidity, .weather-info .wind{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3989ba;
+    margin-top: -150px;
+}
+
+.weather-info .humidity{
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.weather-info .wind{
+    justify-content: flex-end;
+    padding-right: 18px;
+}
+
+.weather-info i{
+    color: #3989ba;
+    padding-right: 7px;
+}
