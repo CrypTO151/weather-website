@@ -5,7 +5,7 @@
 
 // search.addEventListener('click', () => {
 
-//     const APIKey = 'fb8961f7145d0fd1cc2f1f6c5bf304f1';
+//     const APIKey = '';
 //     const city = document.querySelector('.search-box input').value;
 
 //     if (city === '')
